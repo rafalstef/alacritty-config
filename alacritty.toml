@@ -37,3 +37,7 @@ save_to_clipboard = true
 key = "Space"
 mods = "Control"
 chars = "\u0000"
+
+[font]
+normal = { family = "JetBrains Mono", style = "Regular"}
+size = 12
