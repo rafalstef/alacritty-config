@@ -33,11 +33,13 @@ startup_mode = "Maximized"
 [selection]
 save_to_clipboard = true
 
-[[keyboard.bindings]]
-key = "Space"
-mods = "Control"
-chars = "\u0000"
+[keyboard]
+bindings = [
+    { key = "Space", mods = "Control", chars = "\u0000" },
+    { key = "Back", mods = "Control", chars = "\u0017" },
+    { key = "v", mods = "Control", action = "Paste" },
+]
 
 [font]
-normal = { family = "JetBrains Mono", style = "Regular"}
-size = 12
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular"}
+size = 11
